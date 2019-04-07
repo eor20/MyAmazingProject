@@ -9,7 +9,7 @@
   <title>Coffee in Brighton</title>
 
   <!-- ADD BOOTSTRAP CORE HERE!!!! -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 
 <body>
   <div class='container'>
-    <p> Location  </p>
+    <p> Coffee  </p>
   </div>
 
   <div class=“container”>
@@ -41,38 +41,219 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <li class="nav-item">
-            <a class="nav-link" href="#1.html">Coffee</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
-          <a class="nav-link" href="#2.html">About Brighton <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="coffee.html">Coffee  <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#3.html">Location</a>
+          <a class="nav-link" href="location.html">Location</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="http://www.wildlifeworldwide.com/images/categories/sm/cat_dolphin-watching_banner.jpg" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="http://www.leisureopportunities.com/images/imagesX/SOCIAL340966_198885_737209.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="http://www.womanthology.co.uk/wp-content/uploads/2016/05/african-bush-elephants-800-x-400.jpg" alt="Third slide">
-      </div>
-    </div>
+  <div class="header">
+    <h1>Coffee  </h1>
+    <p>Our favorite coffee spots in Brighton</p>
+    <p>From best coffee to nicest places this is our ratings of the best coffee spots in Brighton</p>
+  </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-  </body>
-  </html>
+  <html lang="en">
+  <head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: #e6eeff;
+    }
+
+    /* Style the header */
+    .header {
+      background-color:  #99bbff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Create three unequal columns that floats next to each other */
+    .column {
+      float: left;
+      padding: 10px;
+    }
+
+    /* Left and right column */
+    .column.side {
+      width: 25%;
+    }
+
+    /* Middle column */
+    .column.middle {
+      width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column.side, .column.middle {
+        width: 100%;
+      }
+    }
+
+    hr {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: solid;
+      border-width: 1px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column side">
+        <h2>ACCA cafe</h2>
+        <p>  <img src="https://www.accaglobal.com/content/dam/acca/global/images-students/coffee-chat.jpg/_jcr_content/renditions/original" alt="ACCA" width="330" height="250"></p>
+      </div>
+
+      <div class="column middle">
+        <h2>About ACCA cafe</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+      </div>
+
+      <div class="column side">
+        <h2>Location, Opening Hours and Contact</h2>
+        <p><b>Location:</b> Attenborough Centre for the Creative Arts
+          University of Sussex
+          Gardner Centre Road, Brighton, East Sussex</p>
+          <p><b>Postcode :</b>BN1 9RA</b></p>
+          <p><b>Hours :</b> Monday to Friday / 8.30am-6pm </b></p>
+          <p><b>Contact :</b> 01273 678822 / attenboroughcentre.com </b></p>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="column side">
+          <h2>Pelicano Coffee Co.</h2>
+          <p>  <img src="https://i0.wp.com/brightoncoffeeguide.co.uk/wp-content/uploads/2019/02/DSC02023-cut.png?fit=3000%2C1344" alt="PELLICANO" width="330" height="250"></p>
+        </div>
+
+        <div class="column middle">
+          <h2>About Pelicano Coffee Co.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+
+        <div class="column side">
+          <h2>Location, Opening Hours and Contact</h2>
+          <p><b>Location:</b> The Level
+            St Peters Place
+            Brighton, East Sussex</p>
+            <p><b>Postcode :</b>BN1 4SB</p>
+            <p><b>Hours :</b> Monday to Friday / 8am-6pm / Saturday to Sunday / 9am-6pm </b></p>
+            <p><b>Contact:</b> pelicanocoffee.com</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="column side">
+            <h2>The Flour Pot Bakery</h2>
+            <p>  <img src="https://mk0restaurantsbkd2xc.kinstacdn.com/wp-content/uploads/2016/04/flour-pot-ElmGrove-2-1.jpg" alt="THE FLOUR POT BAKERY" width="330" height="250"></p>
+          </div>
+
+          <div class="column middle">
+            <h2>About The Flour Pot Bakery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            <p><b>$$</b></p>
+          </div>
+
+          <div class="column side">
+            <h2>Location, Opening Hours and Contact</h2>
+            <p><b>Location:</b> 124 Elm Grove
+              Brighton, East Sussex</p>
+              <p><b>Postcode :</b>BN2 3DB</b></p>
+              <p><b>Hours :</b> Monday to Saturday / 8am-6pm / Sunday / 8am-5pm  </b></p>
+              <p><b>Contact :</b>01273 625854</b></p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="column side">
+              <h2>Small Batch Coffee Roasters</h2>
+              <p>  <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/5b/59/5c/small-batch-coffee-company.jpg" alt="SMALL BATCH COMPAGNY" width="330" height="250"> </p>
+            </div>
+
+            <div class="column middle">
+              <h2>About Small batch Roasters</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            </div>
+
+            <div class="column side">
+              <h2>Location, Opening Hours and Contact</h2>
+              <p><b>Location:</b> 17 Jubilee St
+                Brighton, East Sussex</p>
+                <p><b>Postcode :</b>BN1 1GE</b></p>
+                <p><b>Hours :</b> All Week / 7am-7pm </b></p>
+                <p><b>Contact :</b> 01273 697597 </b></p>
+
+              </div>
+            </div>
+
+          </body>
+          </html>
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+          <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+          <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+        </body>
+        </html>
